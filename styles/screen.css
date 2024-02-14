@@ -20,7 +20,6 @@ header {
 
 header h1 {
     margin: 0;
-    font-weight: normal;
 }
 
 main {
@@ -44,8 +43,8 @@ main {
 .details ul li {
     list-style-type: none;
     margin: 10px 0;
-    padding: 0 0 0 35px;
-    background-size: 5px;
+    padding: 30px 55px;
+    background-size: 200px;
 }
 
 .details ul li.qr {
@@ -60,6 +59,44 @@ main {
 .details ul li.film {
     background: url('/images/film.svg') no-repeat center left;
 }
+
 .details ul li.wifi {
     background: url('/images/wifi.svg') no-repeat center left;
+}
+
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Inter", sans-serif;
+}
+
+input[type=text] {
+    width: 74%;
+
+}
+
+input[type=button] {
+    width: 25%;
+    background-color: var(--accent-color);
+    text-decoration: none;
+    color: var(--main-bg-color);
+    font-weight: bold;
+}
+
+form {
+    background-color: #dcdcdc;
+    padding: 1% 1% 1% 1%;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.cta {
+    margin-bottom: 50px;
 }
